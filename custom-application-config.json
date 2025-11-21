@@ -1,5 +1,7 @@
 {
   "name": "EasyPost Shipments",
+  "id": "cmi8fdoai00061o010k9klfkf",
+  "applicationId": "cmi8fdoai00061o010k9klfkf",
   "description": "Custom app to view shipments and tracking IDs from EasyPost",
   "entryPointUriPath": "shipments",
   "cloudIdentifier": "aws-eu",
