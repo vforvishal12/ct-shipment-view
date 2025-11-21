@@ -1,0 +1,18 @@
+{
+  "name": "EasyPost Shipments",
+  "description": "Custom app to view shipments and tracking IDs from EasyPost",
+  "entryPointUriPath": "shipments",
+  "cloudIdentifier": "aws-eu",
+  "icon": "ShoppingBasket",
+  "mainMenuLink": {
+    "defaultLabel": "Shipments",
+    "labelAllLocales": []
+  },
+  "submenuLinks": [],
+  "env": {
+    "production": {
+      "applicationId": "cmi8dyh2l0003z801e3wmrtee",
+      "url": "https://v0-commercetools-shipment-app.vercel.app"
+    }
+  }
+}

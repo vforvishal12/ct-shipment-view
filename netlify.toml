@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  functions = "api"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NODE_ENV = "production"
+
+# API functions
+[[functions]]
+  node_bundler = "esbuild"
